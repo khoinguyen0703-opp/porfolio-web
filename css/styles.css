@@ -1,0 +1,89 @@
+*
+{
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+}
+.layout-container
+{
+    display: flex;
+    position: relative;
+    min-height: 100vh;
+    background: #F0F0F6;
+    gap:45px;
+}
+.sidebar
+{
+    display: flex;
+    width: 305px;
+    background: #FFF;
+}
+.main-content
+{
+    display: flex;
+    flex: 1;
+}
+.right-nav
+{
+    display: flex;
+    width: 108px;
+    min-height: 100vh;
+    flex-shrink: 0;
+    background:#FAFAFA;
+    flex-direction: column;
+    justify-content: center;
+}
+.profile-card
+{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    width: 305px;
+    height: 1315px;
+    flex-shrink: 0;
+}
+.profile-image
+{
+    display:flex;
+    justify-content: center;
+    margin: 0 auto;
+    padding: 50px;
+    width: 150px;
+    height: 150px;
+    flex-shrink: 0;
+}
+.profile-info
+{
+    width: 219px;
+    height: 281px;
+    flex-shrink: 0;
+}
+.front-end
+{
+    color: var(--Paragraph-Font, #767676);
+    font-kerning: none;
+    font-feature-settings: 'calt' off;
+
+    /* Paragraph Progress - 15 */
+    font-family: Inter;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 160% */
+    text-transform: capitalize;
+    text-align: center;
+}
+.info
+{
+    color: var(--Black, #2B2B2B);
+
+    /* H4 - 18px */
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 25px; /* 22.248px */
+    text-transform: capitalize;
+    text-align: center;
+}
